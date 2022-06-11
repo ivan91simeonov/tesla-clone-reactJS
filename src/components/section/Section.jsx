@@ -20,6 +20,7 @@ function Section({
         {rightBtnText && (
           <button className="right-button">{rightBtnText}</button>
         )}
+        {/* <img src="/images/down-arrow.svg" alt="" /> */}
       </div>
     </Wrap>
   );
@@ -28,6 +29,7 @@ function Section({
 export default Section;
 
 const Wrap = styled.div`
+  z-index: 10;
   width: 100vw;
   height: 100vh;
   background-size: cover;
